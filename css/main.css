@@ -12,7 +12,7 @@ html {
   text-size-adjust: 100%;
 }
 
-*, *::before, *::after
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -32,14 +32,6 @@ html {
 
 .head:hover .right-ear {
   transform: rotate(-7deg);
-}
-
-.left-eye {
-
-}
-
-.right-eye {
-
 }
 
 .eyes {
