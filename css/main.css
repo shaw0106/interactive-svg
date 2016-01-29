@@ -17,11 +17,21 @@ html {
 }
 
 .left-ear {
+  transition: all 5s linear;
+  transform-origin: 100px 80px;
+}
 
+.head:hover .left-ear {
+  transform: rotate(20deg);
 }
 
 .right-ear {
+  transition: all 5s linear;
+  transform-origin: 125px 100px;
+}
 
+.head:hover .left-ear {
+  transform: rotate(-20deg);
 }
 
 .nose {
@@ -33,7 +43,7 @@ html {
 }
 
 .right-eye {
-  
+
 }
 
 
